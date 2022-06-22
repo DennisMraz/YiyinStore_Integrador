@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+<head>
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon-->
+	<link rel="shortcut icon" th:href="@{/img/fav.png}">
+	<!-- Author Meta -->
+	<meta name="author" content="colorlib">
+	<!-- Meta Description -->
+	<meta name="description" content="">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>Catálogo</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+	<!--
+			CSS
+			============================================= -->
+	<link rel="stylesheet" th:href="@{/css/linearicons.css}">
+	<link rel="stylesheet" th:href="@{/css/font-awesome.min.css}">
+	<link rel="stylesheet" th:href="@{/css/bootstrap.css}">
+	<link rel="stylesheet" th:href="@{/css/magnific-popup.css}">
+	<link rel="stylesheet" th:href="@{/css/nice-select.css}">
+	<link rel="stylesheet" th:href="@{/css/animate.min.css}">
+	<link rel="stylesheet" th:href="@{/css/jquery-ui.css}">
+	<link rel="stylesheet" th:href="@{/css/main.css}">
+	<link rel="stylesheet" th:href="@{/css/estilos.css}">
+</head>
+
+<body>
+	<header id="header">
+		<div class="header-top">
+		</div>
+		<div class="container main-menu">
+			<div class="row align-items-center justify-content-between d-flex">
+
+				<a th:href="@{/}">
+					<h5 class="logo">Yiyin Store</h5>
+				</a>
+				<nav id="nav-menu-container">
+					<ul class="nav-menu">
+						<li><a th:href="@{/login}">Iniciar Sesión</a></li>
+						<li><a th:href="@{/catalogo}">Catálogo</a></li>
+						<li><a th:href="@{/contacto}">Contacto</a></li>
+					</ul>
+				</nav><!-- #nav-menu-container -->
+			</div>
+		</div>
+	</header><!-- #header -->
+
+	<!-- start banner Area -->
+	<section class="banner-area relative about-banner" id="home">
+		<div class="overlay overlay-bg"></div>
+		<div class="container">
+			<div class="row d-flex align-items-center justify-content-center">
+				<div class="about-content col-lg-12">
+					<h1 class="text-white">
+						Catálogo
+					</h1>
+					<p class="text-white link-nav"><a th:href="@{/}">Inicio </a> <span
+							class="lnr lnr-arrow-right"></span> <a th:href="@{catalogo}"> Catálogo</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End banner Area -->
+
+	<!-- Start image-gallery Area -->
+	<section class="image-gallery-area section-gap">
+		<div class="container">
+			<div class="row section-title">
+				<h1>Prendas disponibles</h1>
+				<p>Ropa urbana y Juveniles</p>
+			</div>
+			<div class="container px-lg-5">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="card" style="width: 18rem;">
+							<img th:src="@{/img/prendas/prenda2.jpeg}" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title text-center">Sueter Azul</h5>
+								<p class="card-text">
+									<b>Precio : </b>
+									s/.50 <br>
+									<b>Tallas disponibles : </b>
+									S - M
+								</p>
+								<a href="https://wa.me/51986699052?text=Hola!%20deseo%20el%20sueter%20azul!"
+									class="btn btn-warning" target="_blank">Comprar</a>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card" style="width: 18rem;">
+							<img th:src="@{/img/prenda1.jpeg}" class="card-img-top" alt="..." width="405" height="405">
+							<div class="card-body">
+								<h5 class="card-title text-center">Sueter Verde</h5>
+								<p class="card-text">
+									<b>Precio : </b>
+									s/.50 <br>
+									<b>Tallas disponibles : </b>
+									S - M
+								</p>
+								<a href="https://wa.me/51986699052?text=Hola!%20deseo%20el%20sueter%20verde!"
+									class="btn btn-warning ">Comprar</a>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card" style="width: 18rem;">
+							<img th:src="@{/img/prendas/prenda4.jpeg}" class="card-img-top" alt="..." width="405"
+								height="405">
+							<div class="card-body">
+								<h5 class="card-title text-center">Sueter Marrón</h5>
+								<p class="card-text">
+									<b>Precio : </b>
+									s/.50 <br>
+									<b>Tallas disponibles : </b>
+									S - M
+								</p>
+								<a href="https://wa.me/51986699052?text=Hola!%20deseo%20el%20sueter%20marrón!"
+									class="btn btn-warning">Comprar</a>
+
+							</div>
+						</div>
+					</div>
+					<!-- Separador -->
+					<div class="container my-3">
+						<div class="row justify-content-center">
+							<div class="col-lg-6">
+							</div>
+						</div>
+					</div>
+					<!-- Fin separador  -->
+					<div class="col-md-4">
+						<div class="card" style="width: 18rem;">
+							<img th:src="@{/img/prendas/prenda3.jpeg}" class="card-img-top" alt="..." width="405"
+								height="405">
+							<div class="card-body">
+								<h5 class="card-title text-center">Jogger Blanco</h5>
+								<p class="card-text">
+									<b>Precio : </b>
+									s/.70 <br>
+									<b>Tallas disponibles : </b>
+									S - M
+								</p>
+								<a href="https://wa.me/51986699052?text=Hola!%20deseo%20el%20Jogger%20Blanco!"
+									class="btn btn-warning">Comprar</a>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card" style="width: 18rem;">
+							<img th:src="@{/img/prendas/prenda5.jpeg}" class="card-img-top" alt="..." width="405"
+								height="405">
+							<div class="card-body">
+								<h5 class="card-title text-center">Jogger Plomo</h5>
+								<p class="card-text">
+									<b>Precio : </b>
+									s/.70 <br>
+									<b>Tallas disponibles : </b>
+									S - M
+								</p>
+								<a href="https://wa.me/51986699052?text=Hola!%20deseo%20el%20Jogger%20Plomo!"
+									class="btn btn-warning ">Comprar</a>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card" style="width: 18rem;">
+							<img th:src="@{/img/prendas/jean.jpg}" class="card-img-top" alt="..." width="600"
+								height="405">
+							<div class="card-body">
+								<h5 class="card-title text-center"> Moon Jeans </h5>
+								<p class="card-text">
+									<b>Precio : </b>
+									s/.90 <br>
+									<b>Tallas disponibles : </b>
+									28 - 30 - 32
+								</p>
+								<a href="https://wa.me/51986699052?text=Hola!%20deseo%20el%20Moon%20Jeans!"
+									class="btn btn-warning ">Comprar</a>
+
+							</div>
+						</div>
+					</div>
+					<!-- Separador -->
+					<div class="container my-3">
+						<div class="row justify-content-center">
+							<div class="col-lg-6">
+							</div>
+						</div>
+					</div>
+					<!-- Fin separador  -->
+					<div class="col-md-4">
+						<div class="card" style="width: 18rem;">
+							<img th:src="@{/img/prendas/conjunto2.jpeg}" class="card-img-top" alt="..." width="405"
+								height="405">
+							<div class="card-body">
+								<h5 class="card-title text-center">Conjunto Negro</h5>
+								<p class="card-text">
+									<b>Precio : </b>
+									s/.130 <br>
+									<b>Tallas disponibles : </b>
+									S - M - L
+								</p>
+								<a href="https://wa.me/51986699052?text=Hola!%20deseo%20el%20Conjunto%20Negro!"
+									class="btn btn-warning">Comprar</a>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card" style="width: 18rem;">
+							<img th:src="@{/img/prendas/conjunto3.jpeg}" class="card-img-top" alt="..." width="405"
+								height="405">
+							<div class="card-body">
+								<h5 class="card-title text-center">Conjunto Blanco</h5>
+								<p class="card-text">
+									<b>Precio : </b>
+									s/.130 <br>
+									<b>Tallas disponibles : </b>
+									S - M - L
+								</p>
+								<a href="https://wa.me/51986699052?text=Hola!%20deseo%20el%20Conjunto%20Blanco!"
+									class="btn btn-warning">Comprar</a>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card" style="width: 18rem;">
+							<img th:src="@{/img/prendas/conjunto4.jpeg}" class="card-img-top" alt="..." width="600"
+								height="405">
+							<div class="card-body">
+								<h5 class="card-title text-center">Top Blanco + Jogger Negro </h5>
+								<p class="card-text">
+									<b>Precio : </b>
+									s/.150 <br>
+									<b>Tallas disponibles : </b>
+									S - M - L
+								</p>
+								<a href="https://wa.me/51986699052?text=Hola!%20deseo%20el%20Top%20Blanco%20+%20Jogger%20Negro!"
+									class="btn btn-warning">Comprar</a>
+
+							</div>
+						</div>
+					</div>
+					<!-- Separador -->
+					<div class="container my-3">
+						<div class="row justify-content-center">
+							<div class="col-lg-6">
+							</div>
+						</div>
+					</div>
+					<!-- Fin separador  -->
+
+					<div class="col-md-4">
+						<div class="card" style="width: 18rem;">
+							<img th:src="@{/img/prendas/conjunto6.jpeg}" class="card-img-top" alt="..." width="405"
+								height="405">
+							<div class="card-body">
+								<h5 class="card-title text-center">Conjunto Celeste Bebé</h5>
+								<p class="card-text">
+									<b>Precio : </b>
+									s/.130 <br>
+									<b>Tallas disponibles : </b>
+									S - M - L
+								</p>
+								<a href="https://wa.me/51986699052?text=Hola!%20deseo%20el%20Conjunto%20Celeste%20Bebé!"
+									class="btn btn-warning">Comprar</a>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card" style="width: 18rem;">
+							<img th:src="@{/img/prendas/conjunto5.jpeg}" class="card-img-top" alt="..." width="405"
+								height="405">
+							<div class="card-body">
+								<h5 class="card-title text-center">Top Blanco + Jogger Blanco</h5>
+								<p class="card-text">
+									<b>Precio : </b>
+									s/.180 <br>
+									<b>Tallas disponibles : </b>
+									S - M - L
+								</p>
+								<a href="https://wa.me/51986699052?text=Hola!%20deseo%20el%20Top%20Blanco%20+%20Jogger%20Blanco!"
+									class="btn btn-warning">Comprar</a>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card" style="width: 18rem;">
+							<img th:src="@{/img/prendas/conjunto7.jpeg}" class="card-img-top" alt="..." width="600"
+								height="405">
+							<div class="card-body">
+								<h5 class="card-title text-center"> Conjunto Blanco Total </h5>
+								<p class="card-text">
+									<b>Precio : </b>
+									s/.220 <br>
+									<b>Tallas disponibles : </b>
+									S - M - L
+								</p>
+								<a href="https://wa.me/51986699052?text=Hola!%20deseo%20el%20Conjunto%20Blanco%20Total!"
+									class="btn btn-warning">Comprar</a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End image-gallery Area -->
+
+
+	<!-- Start home-calltoaction Area -->
+	<section class="home-calltoaction-area relative">
+		<div class="container">
+			<div class="overlay overlay-bg"></div>
+			<div class="row align-items-center section-gap">
+				<div class="col-lg-8">
+					<h1>Experiencia urbana</h1>
+					<p>
+						Disfruta, explora y siente la moda urbana, juvenil y femenina de nuestras prendas.  
+					</p>
+				</div>
+				<div class="col-lg-4 btn-left">
+					<a th:href="@{/contacto}" class="primary-btn">Contactar</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End home-calltoaction Area -->
+
+	<!-- start footer Area -->
+	<footer class="footer-area section-gap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="single-footer-widget">
+						<h6>Enlaces rápidos</h6>
+						<ul>
+							<li><a th:href="@{/login}">Iniciar Sesion</a></li>
+							<li><a th:href="@{/contacto}">Contactos</a></li>
+							<li><a th:href="@{/catalogo}">Catálogo</a></li>
+
+						</ul>
+					</div>
+				</div>
+
+
+				<div class="col-lg-4 col-md-6 col-sm-6 social-widget">
+					<div class="single-footer-widget">
+						<h6>Siguenos</h6>
+						<p>Redes Sociales</p>
+						<div class="footer-social d-flex align-items-center">
+							<a href="https://www.facebook.com/yiyinstoree" target="_blank"><i
+									class="fa fa-facebook"></i></a>
+							<a href="https://www.instagram.com/yiyinstoree/" target="_blank"><i
+									class="fa fa-instagram"></i></a>
+							<a href="https://wa.me/51986699052?text=Hola!%20deseo%20información" target="_blank"><i
+									class="fa fa-whatsapp"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4  col-md-6 col-sm-6">
+					<div class="single-footer-widget">
+						<h6>Recibe Promociones</h6>
+						<p>Gana descuentos en prendas</p>
+						<div class="" id="mc_embed_signup">
+							<form target="_blank"
+								action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+								method="get" class="form-inline">
+								<input class="form-control" name="EMAIL" placeholder="Enter Email"
+									onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '"
+									required="" type="email">
+								<button class="click-btn btn btn-default"><span
+										class="lnr lnr-arrow-right"></span></button>
+								<div style="position: absolute; left: -5000px;">
+									<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value=""
+										type="text">
+								</div>
+
+								<div class="info"></div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<p class="mt-80 mx-auto footer-text col-lg-12">
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					Copyright &copy;
+					<script>document.write(new Date().getFullYear());</script> All rights reserved
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+				</p>
+			</div>
+		</div>
+		<img class="footer-bottom" th:src="@{/img/footer-bottom.png}" alt="">
+	</footer>
+	<!-- End footer Area -->
+
+	<script th:src="@{/js/vendor/jquery-2.2.4.min.js}"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script th:src="@{/js/vendor/bootstrap.min.js}"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+	<script th:src="@{/js/easing.min.js}"></script>
+	<script th:src="@{/js/hoverIntent.js}"></script>
+	<script th:src="@{/js/superfish.min.js}"></script>
+	<script th:src="@{/js/jquery.ajaxchimp.min.js}"></script>
+	<script th:src="@{/js/jquery.magnific-popup.min.js}"></script>
+	<script th:src="@{/js/jquery-ui.js}"></script>
+	<script th:src="@{/js/jquery.nice-select.min.js}"></script>
+	<script th:src="@{/js/mail-script.js}"></script>
+	<script th:src="@{/js/main.js}"></script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+.logo{
+    color: rgba(238, 216, 17, 0.959)
+}
+
+.sombra {
+    border-radius: 8px;
+    box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.15);
+    }
